@@ -90,7 +90,7 @@ TextureImporter:
       213: -8506341012516644137
     second: Mario_28
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -107,10 +107,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -149,6 +151,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -160,6 +164,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -172,6 +177,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -184,6 +190,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -196,6 +203,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -820,9 +841,38 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Mario_0: 4120955195336003847
+      Mario_1: -8340684894021347341
+      Mario_10: -5188551814952082331
+      Mario_11: -3289200234992376777
+      Mario_12: 5740100314215327209
+      Mario_13: 1109687603413664886
+      Mario_14: 4261312395823990064
+      Mario_15: -4011714841779071252
+      Mario_16: -7940106292621141200
+      Mario_17: -4909874281342067639
+      Mario_18: 894007194499801496
+      Mario_19: -8510317226010047069
+      Mario_2: 8029536824772267597
+      Mario_20: 6642691414592863018
+      Mario_21: 1488931247178026643
+      Mario_22: -7064194740399109380
+      Mario_23: -6618893050237331622
+      Mario_24: -4044679514340094317
+      Mario_25: 5366396704099230407
+      Mario_26: -5502867548003334652
+      Mario_27: 7997234602399742494
+      Mario_28: -8506341012516644137
+      Mario_3: -1516733375807340374
+      Mario_4: -1013760585851560218
+      Mario_5: -5383407867553921227
+      Mario_6: 7301754939111470067
+      Mario_7: 3366035027270568996
+      Mario_8: -4300721584263116383
+      Mario_9: -1281953291003957293
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
